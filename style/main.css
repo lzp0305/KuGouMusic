@@ -1,0 +1,11 @@
+.header-centerbox {
+	height: 78px;
+}
+
+.logo {
+	display: block;
+	width: 153px;
+	height: 37px;
+	margin-top: 20px;
+	background: url(../images/logo.png);
+}
