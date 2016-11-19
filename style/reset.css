@@ -55,3 +55,11 @@ a {
 	width: 1000px;
 	margin: 0 auto;
 }
+
+.font-st {
+	font-family: simsun;
+}
+
+.font-yh {
+	font-family: Microsoft YaHei;
+}
