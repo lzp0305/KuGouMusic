@@ -51,6 +51,10 @@ a {
 
 
 /*我的自定义样式*/
+.space {
+	font-size: 0;
+}
+
 .centerbox {
 	width: 1000px;
 	margin: 0 auto;
