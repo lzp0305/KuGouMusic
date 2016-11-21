@@ -49,15 +49,33 @@ header {
 	float: left;
 }
 
-.main-nav>a {
-	display: inline-block;
-	padding: 0 30px;
-	line-height: 55px;
-	color: #ddd;
-	font-size: 16px;
+.main-nav>li {
+	float: left;
+	height: 55px;
 }
 
-.main-nav>a:hover, .on {
+.main-nav>li>a {
+	display: inline-block;
+	height: 55px;
+	line-height: 55px;
+	font-size: 16px;
+	color: #ddd;
+	padding: 0 30px;
+}
+
+.main-nav>li:hover, .main-nav>li:hover>a, .on {
 	color: #fff !important;
 	background-color: #0c8ed9;
+}
+
+.nav-more-ul {
+	width:100%;
+	display: block;
+}
+
+.nav-more-ul>li>a {
+	display: block;
+	width: 100px;
+	height: 100px;
+	color: #000;
 }
