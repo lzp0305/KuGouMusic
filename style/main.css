@@ -52,6 +52,7 @@ header {
 .main-nav>li {
 	float: left;
 	height: 55px;
+	position: relative;
 }
 
 .main-nav>li>a {
@@ -68,14 +69,53 @@ header {
 	background-color: #0c8ed9;
 }
 
-.nav-more-ul {
-	width:100%;
+.main-nav>li:hover .nav-more-list {
 	display: block;
 }
 
-.nav-more-ul>li>a {
+.nav-more-a {
+	padding-right: 50px !important;
+}
+
+.nav-more-arrow {
+	position: absolute;
+	right: 30px;
+	top: 0;
 	display: block;
-	width: 100px;
-	height: 100px;
-	color: #000;
+	width: 20px;
+	height: 55px;
+	background: url(../images/arrowMored.png) center center no-repeat;
+}
+.main-nav>li:hover .nav-more-arrow {
+	background: url(../images/arrowMoreu.png) center center no-repeat;
+}
+
+
+.nav-more-list {
+	width:100%;
+	display: none;
+}
+
+.nav-more-list>li {
+	height: 36px;
+	text-align: center;
+	background-color: #252b34;
+}
+
+.nav-more-list>li:hover {
+	height: 35px;
+	border-top: 1px solid #383d44;
+	background-color: #2d343d;
+}
+
+.nav-more-list>li:hover>a {
+	color: #fff;
+	line-height: 34px;
+}
+
+.nav-more-list>li>a {
+	display: block;
+	line-height: 36px;
+	color: #bbb;
+	font-size: 15px;
 }
